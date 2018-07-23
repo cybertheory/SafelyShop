@@ -1,0 +1,38 @@
+h1,h2,h5, h3 {
+	color: chocolate;
+	text-align: center ;
+}
+#emerald {
+	color: mediumseagreen;
+}
+body {
+    background-color:beige;
+}
+.boxed {
+  border: 1px solid green ;
+}
+
+#amznbutton {
+	background:url(images/amzn.png) no-repeat;
+    cursor:pointer;
+    width: 300px;
+    height: 150px;
+    border: none;
+	align-content: center;
+	box-shadow: 10px 10px 5px grey;
+}
+#refbutton{
+	background:url(images/max-refund.png) no-repeat;
+    cursor:pointer;
+    width: 255px;
+    height: 255px;
+    border: none;
+	/*box-shadow: 10px 10px 5px grey;*/
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
