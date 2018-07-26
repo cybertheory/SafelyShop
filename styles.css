@@ -1,12 +1,15 @@
 h1,h2,h5, h3 {
-	color: chocolate;
+	color:black;
 	text-align: center ;
 }
 #emerald {
-	color: mediumseagreen;
+	color:darkorange;
+}
+#silver{
+	color:darkslategray;
 }
 body {
-    background-color:beige ;
+    background-color:white;
 }
 .boxed {
   border: 1px solid green ;
@@ -37,4 +40,40 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+html, body {margin: 0; height: 100%; overflow: hidden}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color:white;
+	display:inline-block;
+	
+}
+
+
+li {
+    float: left;
+}
+.menu{
+	display:block;
+	color:white;
+	opacity: 1;
+    filter: alpha(opacity=100);
+	position: fixed;
+    top: 0;
+    width: 100%;
+}
+li a {
+    display: block;
+    color: darkslategray;
+    padding: 10px 75px;
+    text-decoration:underline;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color:darkorange;
+}
+.active {
+    background-color:darkorange;
 }
