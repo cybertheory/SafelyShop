@@ -1,5 +1,8 @@
+---
+---
+
+@import "{{ site.theme }}";
 h1, h2,h5, h3 {
-	color:black;
 	text-align: center ;
 }
 #emerald {
@@ -7,9 +10,6 @@ h1, h2,h5, h3 {
 }
 #silver{
 	color:darkslategray;
-}
-body {
-    background:white;
 }
 
 #amznbutton {
