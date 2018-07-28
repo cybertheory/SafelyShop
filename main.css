@@ -1,10 +1,10 @@
-html, body{
+/*html, body{
 	font-family: arial;
 	background-color: black;
 	height:100%;
 	margin: 0;
 
-}
+}*/
 h1,h2,h5, h3 {
 	color: black;
 	text-align: center ;
@@ -13,7 +13,7 @@ a{
 	text-decoration: none;
 }
 
-.main{
+/*.main{
 	background-color:#fff2ce;
 	margin-left:10%;
 	margin-right:10%;
@@ -32,7 +32,7 @@ a{
 	margin-right:20%;
 	box-sizing: border-box;
 
-}
+}*/
 .sub-head{
 	text-align: left;
 	margin-left:20%;
