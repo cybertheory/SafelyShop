@@ -2,6 +2,12 @@ h1,h2,h5, h3 {
 	color:black;
 	text-align: center ;
 }
+.grow:hover
+{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
 #emerald {
 	color:darkorange;
 }
