@@ -15,7 +15,7 @@ h1,h2,h5, h3 {
 	color:darkslategray;
 }
 body {
-    background-color:white;
+    background: linear-gradient(white, grey);
 }
 .boxed {
   border: 1px solid green ;
